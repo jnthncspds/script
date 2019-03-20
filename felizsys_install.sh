@@ -113,7 +113,7 @@ sudo chown $OE_USER:$OE_USER /var/log/$OE_USER
 # Install ODOO
 #--------------------------------------------------
 echo -e "\n==== Installing ODOO Server ===="
-sudo git clone https://www.github.com/jnthncspds/felizsys $OE_HOME_EXT/
+sudo git clone https://www.github.com/jnthncspds/12.0 $OE_HOME_EXT/
 
 if [ $IS_ENTERPRISE = "True" ]; then
     # Odoo Enterprise install!
